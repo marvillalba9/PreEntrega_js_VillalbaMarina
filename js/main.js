@@ -40,10 +40,7 @@ function cargarProductos (productos) {
         `
         contenedor.appendChild(card);
     });
-
 }
-
-
 
 
 document.addEventListener ("DOMContentLoaded", ()=> {
@@ -98,25 +95,6 @@ const agregarProducto = (id) => {
     
     mostrarCarrito();
 }
-
-
-// const agregarProducto = (id) => {
-//     const existe = carrito.some (prod => prod.id === id)
-
-//     if (existe) {
-//         const prod = carrito.map (prod => {
-//             if (prod.id === id) {
-//                 prod.cantidad++
-//             }
-//         })
-//     } else {
-//         const item = productos.find((prod) => prod.id === id);
-//         carrito.push(item);
-//         console.log (carrito);
-//     }
-    
-//     mostrarCarrito ();
-// }
 
 
 const mostrarCarrito = () => {
