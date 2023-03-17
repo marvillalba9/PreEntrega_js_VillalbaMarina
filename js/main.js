@@ -1,10 +1,14 @@
-
-
 const url = "/productos.json";
+
+let carrito = [];
+let productos = [];
 
 fetch (url)
     .then (res => res.json())
-    .then (data => cargarProductos(data))
+    .then (data => {
+        productos = data
+        cargarProductos(productos)
+    })
 
 const contenedor = document.querySelector ("#contenedor");
 const vaciarCarrito = document.querySelector("#vaciarCarrito");
@@ -37,14 +41,8 @@ function cargarProductos (productos) {
         contenedor.appendChild(card);
     });
 
-    // const botonComprar = document.querySelectorAll (".btn-primary");
-    // botonComprar.forEach(btn => {
-    //     btn.addEventListener ("click", (e) => agregarProducto(e, productos));
-    // })
 }
 
-const productos = [];
-let carrito = [];
 
 
 
@@ -88,25 +86,37 @@ finalizarCompra.addEventListener ("click", () => {
         }
 })
 
-
-
 const agregarProducto = (id) => {
-    const existe = carrito.some (prod => prod.id === id)
+    const productoExistente = carrito.filter(prod => prod.id === id)[0];
 
-    if (existe) {
-        const prod = carrito.map (prod => {
-            if (prod.id === id) {
-                prod.cantidad++
-            }
-        })
+    if (productoExistente) {
+        productoExistente.cantidad++;
     } else {
-        const item = productos.find((prod) => prod.id === id);
-        carrito.push(item);
-        console.log (carrito);
+        const producto = productos.find(prod => prod.id === id);
+        carrito.push({...producto, cantidad: 1});
     }
     
-    mostrarCarrito ();
+    mostrarCarrito();
 }
+
+
+// const agregarProducto = (id) => {
+//     const existe = carrito.some (prod => prod.id === id)
+
+//     if (existe) {
+//         const prod = carrito.map (prod => {
+//             if (prod.id === id) {
+//                 prod.cantidad++
+//             }
+//         })
+//     } else {
+//         const item = productos.find((prod) => prod.id === id);
+//         carrito.push(item);
+//         console.log (carrito);
+//     }
+    
+//     mostrarCarrito ();
+// }
 
 
 const mostrarCarrito = () => {
