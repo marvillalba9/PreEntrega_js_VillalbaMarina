@@ -29,7 +29,7 @@ function cargarProductos (productos) {
                     <h5 class="card-title">${prod.tipoDeProducto} de ${prod.sabor}</h5>
                     <p class="card-text text-wrap text-center"> ${prod.descripcion
                     } Precio por unidad $ <b> ${prod.precio}</b></p>
-                    <button="agregarProducto(${prod.id})" class="btn btn-primary">Comprar</a>
+                    <a onclick="agregarProducto(${prod.id})" class="btn btn-primary">Comprar</a>
                 </div>
             </div>
         </div>
