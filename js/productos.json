@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "imagen": "../imagenes/cuplimon.jpg", 
+        "tipoDeProducto": "Cupcakes", 
+        "sabor": "Limon",
+        "descripcion": "Cupcake con base de limón combinado con buttercream de vainilla. Opcionalmente se puede combinar con relleno de arandanos o buttercream de limón.", 
+        "precio": 50,
+        "cantidad": 1
+    },
+    {
+        "id": 2,
+        "imagen": "../imagenes/cupchoco.jpg", 
+        "tipoDeProducto": "Cupcakes", 
+        "sabor": "Chocolate", 
+        "descripcion": "Delicioso cupcake de intenso chocolate, decorado con buttercream a base de chocolate.", 
+        "precio": 50, 
+        "cantidad": 1
+    },
+    {
+        "id": 3,
+        "imagen": "../imagenes/cupvainilla.jpg", 
+        "tipoDeProducto": "Cupcakes", 
+        "sabor": "Vainilla", 
+        "descripcion": "Nuestro clásico cupcake de vainilla, con una sencilla pero deliciosa buttercream de vainilla.", 
+        "precio": 40,
+        "cantidad": 1
+    },
+    {
+        "id": 4, 
+        "imagen": "../imagenes/redvelvet.jpg", 
+        "tipoDeProducto": "Cupcakes", 
+        "sabor": "Red Velvet", 
+        "descripcion": "Exquisito cupcake de red velvet decorado con buttercream a base de queso crema.", 
+        "precio": 60, 
+        "cantidad": 1
+    },
+    {
+        "id": 5,
+        "imagen": "../imagenes/brownie.jpg", 
+        "tipoDeProducto": "Tortas", 
+        "sabor": "Brownie", 
+        "descripcion": "Humedo y delicioso brownie con nueces como base, una generosa capa de dulce de leche repostero y merengue italiano para culminar.", 
+        "precio": 1800,
+        "cantidad": 1
+    },
+    {
+        "id": 6,
+        "imagen": "../imagenes/chocotorta.jpg", 
+        "tipoDeProducto": "Tortas", 
+        "sabor": "Chocotorta", 
+        "descripcion": "Unica e irremplazable chocotorta, con las galletitas que amamos y la deliciosa crema chocotorta.", 
+        "precio": 1800, 
+        "cantidad": 1
+    },
+    {
+        "id": 7, 
+        "imagen": "../imagenes/cheesecakefrutos.jpg", 
+        "tipoDeProducto": "Tortas", 
+        "sabor": "Cheesecake de Frutos Rojos", 
+        "descripcion": "Clásico cheesecake, con base de galletitas y deliciosamente combinado con frutos rojos de estación.", 
+        "precio": 2300, 
+        "cantidad": 1
+    },
+    {
+        "id": 8,
+        "imagen": "../imagenes/cheesecakechoco.jpg", 
+        "tipoDeProducto": "Tortas", 
+        "sabor": "Cheesecake de Chocolate", 
+        "descripcion": "Base de galletitas de chocolate, sobre la cual armamos una deliciosa y fresca cheesecake con chocolate amargo.", 
+        "precio": 2300, 
+        "cantidad": 1
+    },
+    {
+        "id": 9,
+        "imagen": "../imagenes/lemonpie.jpg", 
+        "tipoDeProducto": "Tortas", 
+        "sabor": "Lemon Pie", 
+        "descripcion": "Fresco y clásico, base de delicada masa sablé, relleno cremoso de limón y merengue italiano para completar.", 
+        "precio": 2500,
+        "cantidad": 1
+    },
+    {
+        "id": 10,
+        "imagen": "../imagenes/moussefrutilla.jpg", 
+        "tipoDeProducto": "Tortas", 
+        "sabor": "Mousse de Frutilla", 
+        "descripcion": "Fresca y riquisima mousse de frutilla, sobre base de galletitas de chocolate.", 
+        "precio": 2500, 
+        "cantidad": 1
+    },
+    {
+        "id": 11, 
+        "imagen": "../imagenes/rogel.jpg", 
+        "tipoDeProducto": "Tortas", 
+        "sabor": "Rogel", 
+        "descripcion": "El clásico rogel, capas y capas de crocante hojaldre, unidas por el más rico dulce de leche repostero, terminación con merengue italiano.", 
+        "precio": 2100, 
+        "cantidad": 1
+    },
+    {
+        "id": 12,
+        "imagen": "../imagenes/manzana.jpg", 
+        "tipoDeProducto": "Tortas", 
+        "sabor": "Crumble de Manzana", 
+        "descripcion": "Base de masa sablé, relleno suave y delicioso de manzana, con leve perfume de especias, coronado con el más crocante crumble.", 
+        "precio": 2100, 
+        "cantidad": 1
+    }
+]
